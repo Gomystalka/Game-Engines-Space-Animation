@@ -18,7 +18,6 @@ public class WorldManager : MonoBehaviour
 
     public static Vector3 QueryRandomWorldPoint() {
         if (!instance) return Vector3.zero;
-        Debug.Log("A");
         return instance.transform.position + instance.centerOffset + (Random.insideUnitSphere * instance.radius);
     }
 

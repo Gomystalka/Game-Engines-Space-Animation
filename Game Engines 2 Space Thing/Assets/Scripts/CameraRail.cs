@@ -24,7 +24,6 @@ public class CameraRail : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-
         if (currentRail == null) return;
         Vector3 scale = Vector3.one * railGizmoScale;
             if ((currentRail.ArePointsBaked && drawNonBakedPointsIfBaked) || !currentRail.ArePointsBaked)
