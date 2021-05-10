@@ -60,6 +60,31 @@ public static class Utilities
                 break;
         }
     }
+    public static Transform FindChildInChildrenByName(this Transform transform, string name, ChildSearchMode searchMode = ChildSearchMode.Equals)
+    {
+        name = name.ToLower();
+        foreach (Transform t in transform.GetComponentsInChildren<Transform>())
+        {
+            string n = t.name.ToLower();
+            if (!t) continue;
+            switch (searchMode)
+            {
+                case ChildSearchMode.Contains:
+                    if (n.Contains(name))
+                        return t;
+                    break;
+                case ChildSearchMode.StartsWith:
+                    if (n.StartsWith(name))
+                        return t;
+                    break;
+                default:
+                    if (n.ToLower() == name)
+                        return t;
+                    break;
+            }
+        }
+        return null;
+    }
 }
 public enum LogLevel : byte
 {
@@ -67,4 +92,11 @@ public enum LogLevel : byte
     Warning,
     Assert,
     Error
+}
+
+public enum ChildSearchMode : byte
+{
+    Equals,
+    Contains,
+    StartsWith
 }

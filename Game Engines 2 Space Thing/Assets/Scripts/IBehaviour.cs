@@ -11,7 +11,7 @@ namespace SpaceGame.Interfaces
         void OnIdle();
         void OnTargeting();
         void OnInCombat();
-        void OnLowHP();
+        void OnFlock();
         void OnReturning();
         void OnDamaged();
     }
