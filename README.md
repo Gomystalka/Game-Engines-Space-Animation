@@ -31,13 +31,13 @@ Cutscenes
 
 <h1>Assets</h1>
 <h2>Mothership</h2>
-<img src="https://imgur.com/9FdqwNj">
+<img src="https://imgur.com/9FdqwNj.png">
 
 <h2>Usaki</h2>
-<img src="https://imgur.com/o83po1Z">
+<img src="https://imgur.com/o83po1Z.png">
 
 <h2>NyanFighter</h2>
-<img src="https://imgur.com/Mr1ANSz">
+<img src="https://imgur.com/Mr1ANSz.png">
 
 <h2>Nyami</h2>
-<img src="https://imgur.com/MsU5neU">
+<img src="https://imgur.com/MsU5neU.png">
