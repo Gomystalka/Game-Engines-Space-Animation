@@ -12,7 +12,11 @@ public class CameraRail : MonoBehaviour
      *  -One value (0 - 100) from start of first path to the end of the last path
      */
     public Rail currentRail;
-    //public Rail[] paths;
+    public Rail[] rails;
+    public float speed;
+
+    private float _time;
+    private int _railIndex;
 
 #if UNITY_EDITOR
     [Header("Gizmo Settings")]
@@ -24,62 +28,65 @@ public class CameraRail : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (currentRail == null) return;
-        Vector3 scale = Vector3.one * railGizmoScale;
-            if ((currentRail.ArePointsBaked && drawNonBakedPointsIfBaked) || !currentRail.ArePointsBaked)
-            {
+        foreach (Rail rail in rails)
+        {
+            if (rail == null) return;
+            Vector3 scale = Vector3.one * railGizmoScale;
                 Gizmos.color = pointGizmoColor;
-                for (int i = 0; i < currentRail.railPoints.Length; i++)
-                    Gizmos.DrawSphere(currentRail.railPoints[i].position, railGizmoScale);
+                for (int i = 0; i < rail.railPoints.Length; i++)
+                    Gizmos.DrawSphere(rail.railPoints[i].position, railGizmoScale);
+
                 Gizmos.color = railGizmoColor;
-                for (float t = 0; t < 1f; t += currentRail.pointDensity)
-                    Gizmos.DrawCube(currentRail.GetPointAtTime(t), scale);
-            }
-            if (!currentRail.ArePointsBaked) return;
+                for (float t = 0; t < 1f; t += rail.pointDensity)
+                    Gizmos.DrawCube(rail.GetPointAtTime(t), scale);
+            if (!rail.ArePointsBaked) return;
             Gizmos.color = bakedPointGizmoColor;
-            for (int i = 0; i < currentRail.BakedPoints.Length; i++)
-                Gizmos.DrawCube(currentRail.BakedPoints[i], scale);
+            for (int i = 0; i < rail.BakedPoints.Length; i++)
+                Gizmos.DrawCube(rail.BakedPoints[i], scale);
+        }
     }
 #endif
     private void Start()
     {
-        currentRail.BakePoints(GetComponent<LineRenderer>());
+        foreach (Rail rail in rails)
+        {
+            if (!rail) continue;
+            rail.BakePoints();
+        }
+        _railIndex = 0;
+        BeginRailMotion();
+
 #if !UNITY_EDITOR
         Destroy(GetComponent<LineRenderer>());
 #endif
     }
-}
 
-[System.Serializable]
-public class Rail {
-    public Transform[] railPoints;
-    [Range(0.0001f, 1f)] public float pointDensity = 0.01f;
-
-    private Vector3[] _bakedPoints;
-    public Vector3[] BakedPoints => _bakedPoints;
-    public bool ArePointsBaked => _bakedPoints != null;
-
-    public Vector3 GetPointAtTime(float t)
-    { //Cubic Bezier Curve Formula
-        if (railPoints == null) return Vector3.zero;
-        t = t.Clamp01();
-        return Mathf.Pow(1f - t, 3f) * railPoints[0].position +
-            3f * Mathf.Pow(1f - t, 2f) * t * railPoints[1].position +
-            3f * (1 - t) * Mathf.Pow(t, 2f) * railPoints[2].position + 
-            Mathf.Pow(t, 3f) * railPoints[3].position;
+    private void BeginRailMotion() {
+        _railIndex = 0;
+        currentRail = rails[_railIndex];
+        transform.position = currentRail.BakedPoints[0];
+        //transform.LookAt(currentRail.BakedPoints[1]);
     }
 
-    public void BakePoints(LineRenderer lineRenderer = null) {
-        _bakedPoints = new Vector3[Mathf.RoundToInt(1f / pointDensity)];
-        for (int i = 0; i < _bakedPoints.Length; i++)
-            _bakedPoints[i] = GetPointAtTime(i * pointDensity);
-
-#if UNITY_EDITOR
-        if (lineRenderer)
-        {
-            lineRenderer.positionCount = _bakedPoints.Length;
-            lineRenderer.SetPositions(_bakedPoints);
+    private void LateUpdate()
+    {
+        if (speed == 0) return;
+        _time += Time.deltaTime * speed;
+        if (_time > 1f)
+            _time = 1f;
+        Vector3 nextPosition = currentRail.GetPointAtTime(_time);
+        Vector3 nextPoint = _time == 0 ? currentRail.BakedPoints[1] : currentRail.GetPointAtTime(_time + Time.deltaTime * speed);
+        transform.position = Vector3.MoveTowards(transform.position, nextPosition, _time);
+        //Quaternion lookRot = Quaternion.LookRotation(nextPoint, );
+        //transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRot, Time.deltaTime * 1000f);
+        //transform.LookAt(nextPoint);
+        if (_time >= 1f) {
+            if (_railIndex + 1 < rails.Length)
+            {
+                _railIndex++;
+                _time = 0f;
+            }
+            currentRail = rails[_railIndex];
         }
-#endif
     }
 }

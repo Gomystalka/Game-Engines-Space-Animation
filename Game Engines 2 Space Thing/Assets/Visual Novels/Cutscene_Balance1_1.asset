@@ -1,0 +1,6368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c8752811b47de43a9f7c8766f4896b, type: 3}
+  m_Name: Cutscene_Balance1_1
+  m_EditorClassIdentifier: 
+  author: SKT
+  hasData: 1
+  nodeCount: 15
+  valid: 1
+  nodes:
+  - nodeName: Start Page
+    window:
+      serializedVersion: 2
+      x: 400
+      y: 10
+      width: 200
+      height: 52
+    startWindow:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    isStartNode: 1
+    isEndNode: 0
+    type: 2
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: Your text goes here...
+    character: Character goes here...
+    oldText: 
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 495
+        y: 62
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 1
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 0
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 0
+    - bounds:
+        serializedVersion: 2
+        x: 495
+        y: 62
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 1
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 0
+    - bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 0
+    - bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 0
+  - nodeName: Page 1
+    window:
+      serializedVersion: 2
+      x: 397
+      y: 133
+      width: 196
+      height: 229.5
+    startWindow:
+      serializedVersion: 2
+      x: 397
+      y: 133
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: After a week of hardwork
+    character: 
+    oldText: After a week of hardwork
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 490
+        y: 123
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 0
+        _jointIndex: 1
+        isStartNode: 1
+        isEndNode: 0
+      ownerID: 1
+    - bounds:
+        serializedVersion: 2
+        x: 593
+        y: 242.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 2
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 1
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 490
+        y: 123
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 0
+        _jointIndex: 1
+        isStartNode: 1
+        isEndNode: 0
+      ownerID: 1
+    - bounds:
+        serializedVersion: 2
+        x: 490
+        y: 362.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 1
+    - bounds:
+        serializedVersion: 2
+        x: 387
+        y: 242.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 1
+    - bounds:
+        serializedVersion: 2
+        x: 593
+        y: 242.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 2
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 1
+  - nodeName: Page 2
+    window:
+      serializedVersion: 2
+      x: 722
+      y: 162
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 722
+      y: 162
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: You noticed that you got a raise from your work
+    character: 
+    oldText: You noticed that you got a raise from your work
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 712
+        y: 277.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 1
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 2
+    - bounds:
+        serializedVersion: 2
+        x: 918
+        y: 277.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 3
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 2
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 815
+        y: 152
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 2
+    - bounds:
+        serializedVersion: 2
+        x: 815
+        y: 403.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 2
+    - bounds:
+        serializedVersion: 2
+        x: 712
+        y: 277.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 1
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 2
+    - bounds:
+        serializedVersion: 2
+        x: 918
+        y: 277.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 3
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 2
+  - nodeName: Page 3
+    window:
+      serializedVersion: 2
+      x: 1048
+      y: 195
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 1048
+      y: 195
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 14}
+    characterScrollPosition: {x: 0, y: 0}
+    text: Yet it is not, enough to pay for your sister's treatment expenses
+    character: 
+    oldText: Yet it is not, enough to pay for your sister's treatment expenses
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 1038
+        y: 310.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 2
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 3
+    - bounds:
+        serializedVersion: 2
+        x: 1141
+        y: 436.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 4
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 3
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 1141
+        y: 185
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 3
+    - bounds:
+        serializedVersion: 2
+        x: 1141
+        y: 436.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 4
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 3
+    - bounds:
+        serializedVersion: 2
+        x: 1038
+        y: 310.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 2
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 3
+    - bounds:
+        serializedVersion: 2
+        x: 1244
+        y: 310.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 3
+  - nodeName: Page 4
+    window:
+      serializedVersion: 2
+      x: 1055
+      y: 535
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 1055
+      y: 535
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 14}
+    characterScrollPosition: {x: 0, y: 0}
+    text: You decided to do away any methods that can get you the promotion
+    character: 
+    oldText: You decided to do away any methods that can get you the promotion
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 1148
+        y: 525
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 3
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 4
+    - bounds:
+        serializedVersion: 2
+        x: 1045
+        y: 650.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 5
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 4
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 1148
+        y: 525
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 3
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 4
+    - bounds:
+        serializedVersion: 2
+        x: 1148
+        y: 776.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 4
+    - bounds:
+        serializedVersion: 2
+        x: 1045
+        y: 650.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 5
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 4
+    - bounds:
+        serializedVersion: 2
+        x: 1251
+        y: 650.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 4
+  - nodeName: Page 5
+    window:
+      serializedVersion: 2
+      x: 719
+      y: 538
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 756
+      y: 556
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 14}
+    characterScrollPosition: {x: 0, y: 0}
+    text: Something that can get you the raise fastest, with time to spare too
+    character: 
+    oldText: Something that can get you the raise fastest, with time to spare too
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 915
+        y: 653.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 4
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 5
+    - bounds:
+        serializedVersion: 2
+        x: 709
+        y: 653.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 6
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 5
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 812
+        y: 528
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 5
+    - bounds:
+        serializedVersion: 2
+        x: 812
+        y: 779.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 5
+    - bounds:
+        serializedVersion: 2
+        x: 709
+        y: 653.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 6
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 5
+    - bounds:
+        serializedVersion: 2
+        x: 915
+        y: 653.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 4
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 5
+  - nodeName: Page 6
+    window:
+      serializedVersion: 2
+      x: 413
+      y: 538
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 486
+      y: 555
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: Though you will be less liked by your peers...
+    character: 
+    oldText: Though you will be less liked by your peers...
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 609
+        y: 653.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 5
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 6
+    - bounds:
+        serializedVersion: 2
+        x: 506
+        y: 779.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 7
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 6
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 506
+        y: 528
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 6
+    - bounds:
+        serializedVersion: 2
+        x: 506
+        y: 779.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 7
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 6
+    - bounds:
+        serializedVersion: 2
+        x: 403
+        y: 653.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 6
+    - bounds:
+        serializedVersion: 2
+        x: 609
+        y: 653.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 5
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 6
+  - nodeName: Page 7
+    window:
+      serializedVersion: 2
+      x: 406
+      y: 894
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 406
+      y: 894
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: Suddenly the intercom switches on
+    character: 
+    oldText: Suddenly the intercom switches on
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 499
+        y: 884
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 6
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 7
+    - bounds:
+        serializedVersion: 2
+        x: 602
+        y: 1009.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 8
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 7
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 499
+        y: 884
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 6
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 7
+    - bounds:
+        serializedVersion: 2
+        x: 499
+        y: 1135.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 7
+    - bounds:
+        serializedVersion: 2
+        x: 396
+        y: 1009.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 7
+    - bounds:
+        serializedVersion: 2
+        x: 602
+        y: 1009.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 8
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 7
+  - nodeName: Page 8
+    window:
+      serializedVersion: 2
+      x: 737
+      y: 891
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 740
+      y: 920
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 14}
+    characterScrollPosition: {x: 0, y: 0}
+    text: An ambigious unassuming female voice announces through the intercom
+    character: 
+    oldText: An ambigious unassuming female voice announces through the intercom
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 727
+        y: 1006.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 7
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 8
+    - bounds:
+        serializedVersion: 2
+        x: 933
+        y: 1006.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 9
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 8
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 830
+        y: 881
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 8
+    - bounds:
+        serializedVersion: 2
+        x: 830
+        y: 1132.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 8
+    - bounds:
+        serializedVersion: 2
+        x: 727
+        y: 1006.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 7
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 8
+    - bounds:
+        serializedVersion: 2
+        x: 933
+        y: 1006.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 9
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 8
+  - nodeName: Page 9
+    window:
+      serializedVersion: 2
+      x: 1052
+      y: 902
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 1052
+      y: 902
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 14}
+    characterScrollPosition: {x: 0, y: 0}
+    text: 'This is an announcement for Department C-2
+
+'
+    character: Intercom
+    oldText: 'This is an announcement for Department C-2
+
+'
+    oldCharacter: Intercom
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 1042
+        y: 1017.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 8
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 9
+    - bounds:
+        serializedVersion: 2
+        x: 1145
+        y: 1143.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 10
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 9
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 1145
+        y: 892
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 9
+    - bounds:
+        serializedVersion: 2
+        x: 1145
+        y: 1143.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 10
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 9
+    - bounds:
+        serializedVersion: 2
+        x: 1042
+        y: 1017.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 8
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 9
+    - bounds:
+        serializedVersion: 2
+        x: 1248
+        y: 1017.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 9
+  - nodeName: Page 10
+    window:
+      serializedVersion: 2
+      x: 1052
+      y: 1189
+      width: 196
+      height: 241.5
+    startWindow:
+      serializedVersion: 2
+      x: 1065
+      y: 1205
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: There will be a promotion up for next week, please consult to your local
+      superior for advice
+    character: Intercom
+    oldText: There will be a promotion up for next week, please consult to your local
+      superior for advice
+    oldCharacter: Intercom
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 1145
+        y: 1179
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 9
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 10
+    - bounds:
+        serializedVersion: 2
+        x: 1042
+        y: 1304.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 11
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 10
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 1145
+        y: 1179
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 9
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 10
+    - bounds:
+        serializedVersion: 2
+        x: 1145
+        y: 1430.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 10
+    - bounds:
+        serializedVersion: 2
+        x: 1042
+        y: 1304.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 11
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 10
+    - bounds:
+        serializedVersion: 2
+        x: 1248
+        y: 1304.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 10
+  - nodeName: Page 11
+    window:
+      serializedVersion: 2
+      x: 746
+      y: 1197
+      width: 196
+      height: 229.5
+    startWindow:
+      serializedVersion: 2
+      x: 746
+      y: 1197
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: '"How convienent!"'
+    character: You
+    oldText: '"How convienent!"'
+    oldCharacter: You
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 942
+        y: 1306.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 10
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 11
+    - bounds:
+        serializedVersion: 2
+        x: 736
+        y: 1306.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 12
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 11
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 839
+        y: 1187
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 11
+    - bounds:
+        serializedVersion: 2
+        x: 839
+        y: 1426.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 11
+    - bounds:
+        serializedVersion: 2
+        x: 736
+        y: 1306.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 12
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 11
+    - bounds:
+        serializedVersion: 2
+        x: 942
+        y: 1306.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 10
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 11
+  - nodeName: Page 12
+    window:
+      serializedVersion: 2
+      x: 422
+      y: 1196
+      width: 196
+      height: 229.5
+    startWindow:
+      serializedVersion: 2
+      x: 496
+      y: 1211
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: You thought to yourself
+    character: 
+    oldText: You thought to yourself
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 618
+        y: 1305.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 11
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 12
+    - bounds:
+        serializedVersion: 2
+        x: 515
+        y: 1425.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 13
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 12
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 515
+        y: 1186
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 12
+    - bounds:
+        serializedVersion: 2
+        x: 515
+        y: 1425.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 13
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 12
+    - bounds:
+        serializedVersion: 2
+        x: 412
+        y: 1305.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 12
+    - bounds:
+        serializedVersion: 2
+        x: 618
+        y: 1305.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 11
+        _jointIndex: 2
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 12
+  - nodeName: Page 13
+    window:
+      serializedVersion: 2
+      x: 431
+      y: 1478
+      width: 196
+      height: 229.5
+    startWindow:
+      serializedVersion: 2
+      x: 431
+      y: 1478
+      width: 180
+      height: 120
+    isStartNode: 0
+    isEndNode: 0
+    type: 0
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: And so you got to "work"...
+    character: 
+    oldText: And so you got to "work"...
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 524
+        y: 1468
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 12
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 13
+    - bounds:
+        serializedVersion: 2
+        x: 627
+        y: 1587.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 14
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 1
+      ownerID: 13
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 524
+        y: 1468
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 12
+        _jointIndex: 1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 13
+    - bounds:
+        serializedVersion: 2
+        x: 524
+        y: 1707.5
+        width: 10
+        height: 10
+      info: 1
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 13
+    - bounds:
+        serializedVersion: 2
+        x: 421
+        y: 1587.75
+        width: 10
+        height: 10
+      info: 2
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 13
+    - bounds:
+        serializedVersion: 2
+        x: 627
+        y: 1587.75
+        width: 10
+        height: 10
+      info: 3
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 1
+      connectionPoint:
+        _ownerId: 14
+        _jointIndex: 0
+        isStartNode: 0
+        isEndNode: 1
+      ownerID: 13
+  - nodeName: Last Page
+    window:
+      serializedVersion: 2
+      x: 762
+      y: 1696
+      width: 200
+      height: 52
+    startWindow:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    isStartNode: 0
+    isEndNode: 1
+    type: 2
+    scrollPosition: {x: 0, y: 0}
+    characterScrollPosition: {x: 0, y: 0}
+    text: Your text goes here...
+    character: Character goes here...
+    oldText: 
+    oldCharacter: 
+    panelColor: {r: 1, g: 0, b: 1, a: 1}
+    speed: 0.5
+    background: {fileID: 0}
+    characterSprite: {fileID: 0}
+    characterOffset: {x: 0, y: 0}
+    characterSize: {x: 1, y: 1}
+    offsetCharacter: 0
+    backgroundPreviewShown: 0
+    choiceCount: 0
+    oldChoiceCount: 0
+    choicesShown: 0
+    choices:
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    - joint:
+        bounds:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        info: 0
+        isChoice: 0
+        choiceOutputSet: 0
+        disabled: 0
+        _input: 0
+        _output: 0
+        connectionPoint:
+          _ownerId: -1
+          _jointIndex: -1
+          isStartNode: 0
+          isEndNode: 0
+        ownerID: 0
+      bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      active: 0
+      choiceText: 
+      oldChoiceText: 
+    connectionOrder:
+    - bounds:
+        serializedVersion: 2
+        x: 857
+        y: 1686
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 13
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 14
+    - bounds:
+        serializedVersion: 2
+        x: 857
+        y: 1686
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 13
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 14
+    joints:
+    - bounds:
+        serializedVersion: 2
+        x: 857
+        y: 1686
+        width: 10
+        height: 10
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 1
+      _output: 0
+      connectionPoint:
+        _ownerId: 13
+        _jointIndex: 3
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 14
+    - bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 14
+    - bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 14
+    - bounds:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      info: 0
+      isChoice: 0
+      choiceOutputSet: 0
+      disabled: 0
+      _input: 0
+      _output: 0
+      connectionPoint:
+        _ownerId: -1
+        _jointIndex: -1
+        isStartNode: 0
+        isEndNode: 0
+      ownerID: 14
+  nodePath: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000
