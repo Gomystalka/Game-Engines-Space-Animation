@@ -9,14 +9,16 @@ A mostly code-generated space animation as my Game Engines 2 assignment.
 <p>Due to time limitations, I had to cut a lot of features</p>
 
 <h1>Features</h1>
-Flocking Behaviour
-Path Following
-Custom AI with Behaviour Trees
-Projectile Physics
-Animations
-Music
-Cute Cat School Girl
-Cutscenes
+<ul>
+<li>Flocking Behaviour</li>
+<li>Path Following</li>
+<li>Custom AI with Behaviour Trees</li>
+<li>Projectile Physics</li>
+<li>Animations</li>
+<li>Music</li>
+<li>Cute Cat School Girl</li>
+<li>Cutscenes</li>
+</ul>
 
 <h1>""Gameplay"" Video</h1>
 <a href="https://www.youtube.com/watch?v=L3FbsASdjQk"><img src="http://img.youtube.com/vi/L3FbsASdjQk/0.jpg" title="Game Engines 2 - Space Battle Assignment"/></a>
