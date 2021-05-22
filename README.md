@@ -32,7 +32,7 @@ A mostly code-generated space animation as my Game Engines 2 assignment.
  <li>Collision Avoidance</li>
  <li>Collision Detection</li>
 </ul>
-<p>A behaviour tree created using the IBehaviour Interface which includes multiple behaviours like Idle, Flock and Targetting. Other behaviours are present as well but were not used. The <i>ShipAI</i> class implements this interface. <i>ShipAI</i> is the main class which controls both the NyanFighters and the Usakis.
+<p>A behaviour tree was created using the <i>IBehaviour<i> interface which includes multiple behaviours like <b>Idle, Flock and Targetting</b>. Other behaviours are present as well but were not used. The <i>ShipAI</i> class implements this interface. <i>ShipAI</i> is the main class which controls both the NyanFighters and the Usakis.
 
 <h1>Classes written by me</h1>
 <p><b>All classes were written by me. These include: </b></p>
@@ -96,7 +96,7 @@ A mostly code-generated space animation as my Game Engines 2 assignment.
 <p>Credit to Tom McCann at FreeSound for the Explosion sound</p>
 <p>Mixamo for walking and idle animations</p>
 
-<p><b>All other assets including character and prop models and Visual Novel Framework were completely made by me.</b></p>
+<p><b>All other assets including character and prop models and Visual Novel Framework were completely made by me. I can provide source files for these assets if required to prove my ownership!</b></p>
 
 <h1>Assets</h1>
 <h2>Mothership</h2>
