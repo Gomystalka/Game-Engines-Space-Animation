@@ -1,4 +1,5 @@
 # Game-Engines-Space-Animation
+<h1>Made by Tomasz Galka - C18740411 - tommy.galk@gmail.com</h1>
 A mostly code-generated space animation as my Game Engines 2 assignment.
 
 <h1>NOTE</h1>
