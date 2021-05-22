@@ -8,6 +8,8 @@ public class Fader : MonoBehaviour
 
     private Image _image;
     public GameObject endText;
+    public float fadeRate = 0.1f;
+    public OneTimeEvent onFadeInEnd;
 
     private void Start()
     {
@@ -16,9 +18,20 @@ public class Fader : MonoBehaviour
     }
 
     public void FadeIn() {
+        StartCoroutine(FadeInRoutine());
+    }
+
+    private IEnumerator FadeInRoutine() {
         Color c = _image.color;
+        c.a = 0f;
+        _image.color = c;
+        while (c.a < 1f) {
+            c.a += Time.deltaTime * fadeRate;
+            _image.color = c;
+            yield return null;
+        }
         c.a = 1f;
         _image.color = c;
-        endText.SetActive(true);
+        onFadeInEnd?.InvokeOneTime();
     }
 }

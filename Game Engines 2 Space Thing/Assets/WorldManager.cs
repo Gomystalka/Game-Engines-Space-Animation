@@ -13,12 +13,27 @@ public class WorldManager : MonoBehaviour
     public Vector2 usakiSpeedRange;
     public Fader fader;
 
-    public static float RandomUsakiSpeed => Random.Range(instance.usakiSpeedRange.x, instance.usakiSpeedRange.y);
+    public static float RandomShipSpeed => Random.Range(instance.usakiSpeedRange.x, instance.usakiSpeedRange.y);
     public float maxUsakiSpeed = 2500f;
     public float minUsakiSpeed = 800f;
     public float usakiDecelerationRate = 10f;
+    public float bakuHatsuSpeed = 50f;
 
     public Projectile laserPrefab;
+    private VisualNovel _selectedNovel;
+
+    [Header("Stages")]
+    public Transform bakuhatsuView;
+    public Transform pointOfImpact;
+    public VisualNovel finalDialogue;
+    public CreditsController creditsController;
+
+    [Header("FX")]
+    public GameObject bakuhatsu;
+    public GameObject fire;
+
+    public static byte Stage { get; set; } = 0;
+    public byte CurrentStage { get => Stage; set => Stage = value; }
 
     private void Awake()
     {
@@ -36,19 +51,54 @@ public class WorldManager : MonoBehaviour
         Gizmos.DrawSphere(transform.position + centerOffset, radius);
     }
 
-    public void FireRandomBakuUsaAt(Transform transform)
+    public void FireRandosmBakuUsaAt()
     {
-        StartCoroutine(PerformAfter(6f));
+        Debug.Log($"E? STAGE {Stage}");
+        if (Stage == 1) {
+            CameraController.instance.SetCameraSpeeds(100f, 60f);
+            CameraController.instance.SetCameraTarget(bakuhatsuView);
+            Transform pr = ShipAI.FireRandomBakuUsaAt(pointOfImpact);
+            pr.Inflate(4.5f);
+            Projectile proj = pr.GetComponent<Projectile>();
+            proj.onHomeTargetReached.AddListener(() => OnBakuUsaHit(proj));
+            Stage++;
+        }
+
+        //StartCoroutine(PerformAfter(6f, transform));
     }
 
-    private IEnumerator PerformAfter(float delay) {
-        yield return new WaitForSeconds(delay);
-        CameraController.instance.orbit = false;
-        CameraController.instance.positionSwitchTarget = null;
-        CameraController.instance.SetCameraTarget(ShipAI.FireRandomBakuUsaAt(transform));
-        CameraController.instance.moveRate = 200000f;
-        yield return new WaitForSeconds(3f);
-        fader.FadeIn();
-        Debug.Log("AWA");
+    private void OnBakuUsaHit(Projectile proj) {
+        Destroy(proj.gameObject);
+        Instantiate(bakuhatsu, proj.transform.position, Quaternion.identity);
+        Instantiate(fire, proj.transform.position, Quaternion.identity);
+        SoundSystem.PlaySound(SoundSystem.FindClipByName("Bakuhatsu"), 1, false, 0f);
+        Stage++;
+        StartCoroutine(LoadNovelAfterSeconds(finalDialogue, 4f));
     }
+
+    public void SetNovelToLoad(VisualNovel novel) => _selectedNovel = novel;
+    public void LoadSelectedNovelAfter(float seconds) {
+        if (VisualNovelPanel.instance)
+            StartCoroutine(LoadNovelAfterSeconds(_selectedNovel, seconds));
+    }
+
+    private IEnumerator LoadNovelAfterSeconds(VisualNovel novel, float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        if (novel)
+        {
+            VisualNovelPanel.instance.gameObject.SetActive(true);
+            VisualNovelPanel.instance.LoadVisualNovel(novel);
+        }
+    }
+
+    public void TryEndCutscene() {
+        if (Stage > 2) {
+            fader.FadeIn();
+        }
+    }
+
+    public void RollCredits() => creditsController.RollCredits();
+
+    public void IncrementStage() => Stage++;
 }

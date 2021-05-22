@@ -85,6 +85,8 @@ public static class Utilities
         }
         return null;
     }
+
+    public static void Inflate(this Transform transform, float inflationFactor) => transform.localScale *= inflationFactor;
 }
 public enum LogLevel : byte
 {

@@ -13,6 +13,8 @@ using UnityEngine.EventSystems;
 
 public class VisualNovelPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler
 {
+    public static VisualNovelPanel instance;
+
     public Image advanceArrow;
     public Image characterField;
     public VisualNovel visualNovel;
@@ -44,6 +46,11 @@ public class VisualNovelPanel : MonoBehaviour, IPointerEnterHandler, IPointerExi
     private StringBuilder _choiceBuilder;
 
     private Vector2 _characterStartPosition;
+
+    private void Awake()
+    {
+        instance = Utilities.CreateSingleton(instance, this);
+    }
 
     private void Start()
     {
@@ -354,6 +361,17 @@ public class VisualNovelPanel : MonoBehaviour, IPointerEnterHandler, IPointerExi
             }
         }
         return -1;
+    }
+
+    public void LoadNovelAfter(VisualNovel novel, float seconds) => StartCoroutine(LoadNovelAfterSeconds(novel, seconds));
+
+    private IEnumerator LoadNovelAfterSeconds(VisualNovel novel, float seconds) {
+        yield return new WaitForSeconds(seconds);
+        if (novel)
+        {
+            gameObject.SetActive(true);
+            LoadVisualNovel(novel);
+        }
     }
 }
 

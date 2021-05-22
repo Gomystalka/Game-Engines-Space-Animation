@@ -7,6 +7,8 @@ using SpaceGame.Interfaces;
 public class ShipAI : MonoBehaviour, IBehaviour
 {
     public static List<ShipAI> usakiGroup = new List<ShipAI>();
+    public static List<ShipAI> nyamiGroup = new List<ShipAI>();
+    public const float kNyamiFlightSpeed = 5f;
 
     private Rigidbody _rigidBody;
 
@@ -28,6 +30,8 @@ public class ShipAI : MonoBehaviour, IBehaviour
     public float hitboxSize;
     public float maximumFlockingDistance;
     public Vector3 positionOffset;
+    public bool doNotFlock;
+    public float maximumFlightSpeed;
 
     public Vector3 RealPosition => transform.position + positionOffset;
     private Vector3 _currentDirection;
@@ -40,6 +44,8 @@ public class ShipAI : MonoBehaviour, IBehaviour
 
     public Transform bakuUsa;
 
+    public OneTimeEvent onFlockTargetReached;
+
     private void Start()
     {
         _rigidBody = GetComponent<Rigidbody>();
@@ -48,21 +54,23 @@ public class ShipAI : MonoBehaviour, IBehaviour
             target = targetDummy;
             targetDummy.position = WorldManager.QueryRandomWorldPoint();
         }
+
         if (team == Team.Usada)
         {
             usakiGroup.Add(this);
-            flySpeed = WorldManager.RandomUsakiSpeed;
+            flySpeed = WorldManager.RandomShipSpeed;
+        }
+        else {
+            nyamiGroup.Add(this);
+            flySpeed = WorldManager.RandomShipSpeed;
         }
 
         _currentDirection = transform.forward;
         _anim = GetComponent<Animator>();
 
         bakuUsa = transform.FindChildInChildrenByName("BakuUsa");
-    }
-
-    void Update()
-    {
-        //UpdateBehaviourTree();
+        if (bakuUsa)
+            bakuUsa.GetComponentInChildren<TrailRenderer>().enabled = false;
     }
 
     private void FixedUpdate()
@@ -99,7 +107,7 @@ public class ShipAI : MonoBehaviour, IBehaviour
     public void OnIdle()
     {
         if (target)
-            _currentState = team == Team.Nyami ? AIState.Targeting : AIState.Flocking;
+            _currentState = AIState.Flocking;
     }
 
     public void OnInCombat()
@@ -117,7 +125,8 @@ public class ShipAI : MonoBehaviour, IBehaviour
         if (!target) return;
         if (Time.time >= _nextFire) {
             _nextFire = Time.time + 1f / fireRate;
-            _anim.SetTrigger("Fire");
+            if(_anim)
+                _anim.SetTrigger("Fire");
 
             for (int i = 0; i < 2; i++) {
                 Projectile proj = Instantiate(WorldManager.instance.laserPrefab, ProjectileSource, Quaternion.LookRotation(transform.forward));
@@ -128,47 +137,46 @@ public class ShipAI : MonoBehaviour, IBehaviour
         }
     }
 
-    private bool _readyToFire = false;
-
     public void OnFlock()
     {
-        if (team != Team.Usada) return;
+        //if (team != Team.Usada) return;
+
         if (Vector3.Distance(transform.position, target.position) <= rangeThreshold)
         {
             OnFlockTargetReached();
-            _readyToFire = true;
             FireAtTarget();
             return;
         }
 
-
-        short usakiCount = 0;
+        short shipCount = 0;
         Vector3 collisionAvoidance = Vector3.zero;
-        float flightSpeed = WorldManager.RandomUsakiSpeed;
+        float flightSpeed = WorldManager.RandomShipSpeed;
         Vector3 flockCenter = Vector3.zero;
         Vector3 directionToTarget = target.position - RealPosition;
+        List<ShipAI> shipGroup = team == Team.Usada ? usakiGroup : nyamiGroup;
 
-        foreach (ShipAI usaki in usakiGroup) {
-            if (usaki == this) continue;
-            float distance = Vector3.Distance(usaki.RealPosition, RealPosition);
-            Vector3 direction = RealPosition - usaki.RealPosition;
+        foreach (ShipAI ship in shipGroup) {
+            if (ship == this) continue;
+            if (ship.doNotFlock) continue;
+            float distance = Vector3.Distance(ship.RealPosition, RealPosition);
+            Vector3 direction = RealPosition - ship.RealPosition;
 
             if (distance <= maximumFlockingDistance) {
                 if (distance < hitboxSize)
                     collisionAvoidance += direction;
 
-                flockCenter += usaki.RealPosition;
-                flightSpeed += usaki.flySpeed;
-                usakiCount++;
+                flockCenter += ship.RealPosition;
+                flightSpeed += ship.flySpeed;
+                shipCount++;
             }
         }
-        if (usakiCount == 0) return;
-        flockCenter /= usakiCount;
+        if (shipCount == 0) return;
+        flockCenter /= shipCount;
         flockCenter += directionToTarget;
 
-        flySpeed = flightSpeed / usakiCount;
-        if (flySpeed > WorldManager.instance.maxUsakiSpeed)
-            flySpeed = WorldManager.instance.maxUsakiSpeed;
+        flySpeed = flightSpeed / shipCount;
+        if (flySpeed > maximumFlightSpeed)
+            flySpeed = maximumFlightSpeed;
 
         _currentDirection = flockCenter + collisionAvoidance - RealPosition;
         if (_currentDirection != Vector3.zero)
@@ -182,9 +190,7 @@ public class ShipAI : MonoBehaviour, IBehaviour
     private void OnFlockTargetReached() {
         //flySpeed -= Time.deltaTime * WorldManager.instance.usakiDecelerationRate;
         //flySpeed = Mathf.Clamp(flySpeed, WorldManager.instance.minUsakiSpeed, WorldManager.instance.maxUsakiSpeed);
-    }
-
-    private void OnMinimumSpeedReached() {
+        onFlockTargetReached?.InvokeOneTime();
     }
 
     public void OnReturning()
@@ -224,10 +230,16 @@ public class ShipAI : MonoBehaviour, IBehaviour
         if (!a || !a.bakuUsa) return transform;
         a.bakuUsa.SetParent(null);
         a.bakuUsa.gameObject.AddComponent<Rigidbody>().useGravity = false;
+        TrailRenderer trail = a.bakuUsa.GetComponentInChildren<TrailRenderer>();
+        if (trail)
+            trail.enabled = true;
         Projectile proj = a.bakuUsa.gameObject.AddComponent<Projectile>();
         proj.AssignRigidbody();
         proj.transform.LookAt(transform);
-        proj.Velocity = transform.forward * 100f;
+        proj.turnRate = 20f;
+        proj.projectileSpeed = WorldManager.instance.bakuHatsuSpeed;
+        proj.Velocity = transform.forward * WorldManager.instance.bakuHatsuSpeed;
+        proj.SetTriggerStatus(true);
         proj.homeTarget = transform;
         return a.bakuUsa;
     }
@@ -244,4 +256,20 @@ public enum AIState {
 public enum Team { 
     Usada,
     Nyami
+}
+
+[System.Serializable]
+public class OneTimeEvent : UnityEngine.Events.UnityEvent {
+    private bool _eventFired;
+    public bool HasEventFired => _eventFired;
+
+    public void InvokeOneTime()
+    {
+        if (_eventFired) return;
+        //if (GetPersistentEventCount() <= 0) return;
+        _eventFired = true;
+        Invoke();
+    }
+
+    public void Reset() => _eventFired = false;
 }
